@@ -5,8 +5,10 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     {
       families: {
-         'Rubik': true
+         'Rubik': [100,300,400,500,700],
+         'Abril Fatface' : true,
+
       },
     },
-  ], "@nuxt/image"],
+  ], "@nuxt/image", "@nuxt/content"],
 })
