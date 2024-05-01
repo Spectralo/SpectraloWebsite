@@ -12,6 +12,7 @@
     </div>
     <ProjectsMiniGallery/>
   </div>
+  <SocialSquares/>
 </template>
 
 <script lang="js" setup>
@@ -20,6 +21,7 @@
 
 <style>
 body {
+  width: 100%;
   background-color: #183D3D;
 }
 * {
@@ -30,7 +32,7 @@ body {
   display: inline-flex;
   justify-content: start;
   flex-direction: row;
-  width: 100vw;
+  width: 100%;
   flex-wrap: wrap;
 }
 .column {
