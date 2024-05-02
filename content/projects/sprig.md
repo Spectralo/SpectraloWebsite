@@ -1,4 +1,4 @@
-# Sprig !
+# Flappy Sprig
 
 I first used that
 COmponetns :

@@ -10,5 +10,5 @@ export default defineNuxtConfig({
 
       },
     },
-  ], "@nuxt/image", "@nuxt/content"],
+  ], "@nuxt/image", "@nuxt/content",'nuxt-icon'],
 })

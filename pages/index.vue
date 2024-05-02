@@ -58,6 +58,7 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   width: fit-content;
+  color: white;
 }
 
 /* CSS Reset */
