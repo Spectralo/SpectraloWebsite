@@ -29,12 +29,12 @@ const route = useRoute()
     font-size: 1.5vw;
   }
   a {
-    border-bottom: 200px;
-    font-size: 105%;
-    transition: border-bottom 0.5s ease;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease-out 100ms;
   }
-  a.containersprig:hover {
-    border-bottom: 20px solid #fff5bd;
+  a:hover {
+    border-bottom: 4px solid #ffffff;
   }
 
 </style>
