@@ -6,6 +6,9 @@
       <ProfileCard />
       <NameCard />
     </div>
+    <div class="myprojects">
+      <h1>About Me</h1>
+    </div>
     <SubtitleSpectralo/>
     <div class="myprojects">
       <h1>My Projects</h1>
@@ -50,7 +53,7 @@ body {
   margin: 0;
 }
 .myprojects {
-  margin-top: 1vw;
+  margin-top: 2vw;
   background-color: rgb(2,0,36);
   display: flex;
   justify-content: start;

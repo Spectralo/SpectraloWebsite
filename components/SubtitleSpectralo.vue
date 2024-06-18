@@ -14,7 +14,7 @@
   font-style: italic;
   font-size: 140%;
   color: white;
-  margin-top: 1.5vw;
+  margin-top: 0.5vw;
   font-weight: 700;
   margin-left: 2vw;
   margin-right: 60vw;

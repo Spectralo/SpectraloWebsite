@@ -17,12 +17,12 @@ const contentQuery = await queryContent('projects').find()
 <style>
   li.gallery {
     list-style-type: none;
-    font-size: 1.5vw;
+    font-size: 20px;
     margin-top: 1vw;
     margin-left: 2vw;
     font-weight: 700;
     background-color: #FFFFFF;
-    padding: 1vw;
+    padding: 20px;
     border-radius: 10px;
     transition: rotate 0.2s ease-out 100ms;
 

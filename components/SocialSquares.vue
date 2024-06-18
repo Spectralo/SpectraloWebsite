@@ -38,6 +38,7 @@
   align-items: center;
   flex-direction: row;
   margin-right: 20px;
+  margin-bottom: 20px;
 }
 .square {
   padding-bottom: 15px;
