@@ -3,7 +3,12 @@
     <ContentNavigation v-slot="{ navigation }">
       <ul class="gallerylist">
         <li class="gallery" v-for="item in contentQuery" :key="item.id">
-          <NuxtLink :to="item._path">{{ item.title }}</NuxtLink>
+          <div class="containerprojects">
+          <NuxtImg src="/img/a.jpg" :alt="item.title" width="200" height="200" />
+          <NuxtLink :to="item._path" class="link">
+            {{ item.title }}
+          </NuxtLink>
+          </div>
         </li>
       </ul>
     </ContentNavigation>
@@ -40,5 +45,13 @@ const contentQuery = await queryContent('projects').find()
   a {
     text-decoration: none;
     color: #000000;
+  }
+  .containerprojects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .link {
+    padding-top: 2vh;
   }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div class="subtitle">
-   <p>A 14yrs old <em>developper</em>. I love making games with Godot, Python and Linux!</p>
+   <p>A 14yrs old <em>developper</em>. I love Linux, making stupid games with Godot and scripting in Python (I need to learn Rust)</p>
   </div>
 </template>
 
@@ -24,6 +24,7 @@ em {
   text-decoration: underline 0.15em rgba(0, 0, 0, 0);
   font-style: normal;
   transition: text-decoration-color 300ms;
+  font-size: 103%;
 }
 em:hover {
   text-decoration-color: rgba(255, 245, 189, 1);
