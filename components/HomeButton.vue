@@ -31,4 +31,8 @@
 .btn:hover {
   transform: scale(1.1);
 }
+a {
+  text-decoration: none;
+  color: white;
+}
 </style>

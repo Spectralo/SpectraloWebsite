@@ -5,7 +5,7 @@
         <li class="gallery" v-for="item in contentQuery" :key="item.id">
           <div class="containerprojects">
           <NuxtLink :to="item._path" class="link">
-          <NuxtImg src="img/a.jpg" :alt="item.title" width="200" height="200" class="projectimg"/>
+          <NuxtImg :src="item.img" :alt="item.title" width="200px" height="200" class="projectimg"/>
           <p class="project">{{ item.title }}</p>
           </NuxtLink>
           </div>
@@ -52,6 +52,8 @@ const contentQuery = await queryContent('projects').find()
     display: flex;
     flex-direction: column;
     align-items: center;
+    word-wrap: break-word;
+    width: 210px;
   }
   .link {
     padding-top: 2vh;
