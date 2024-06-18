@@ -11,9 +11,4 @@ export default defineNuxtConfig({
       },
     },
   ], "@nuxt/image", "@nuxt/content",'nuxt-icon'],
-  components: {
-    dirs: [
-      '~/components/content',
-    ],
-  },
 })
