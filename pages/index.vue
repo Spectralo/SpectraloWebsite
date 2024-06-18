@@ -1,6 +1,7 @@
 <template>
   <div class="pattern">
   </div>
+  <div class="row">
   <div class="column">
     <div class="nameandimg">
       <ProfileCard />
@@ -16,6 +17,7 @@
     <ProjectsMiniGallery/>
   </div>
   <SocialSquares/>
+  </div>
 </template>
 
 <script lang="js" setup>
@@ -24,7 +26,7 @@
 
 <style>
 body {
-  width: 100%;
+  width: 98%;
   background-color: #183D3D;
 }
 * {
@@ -69,6 +71,10 @@ body {
 html, body {
   margin: 0;
   padding: 0;
+}
+.row {
+  display: flex;
+  flex-direction: row;
 }
 
 

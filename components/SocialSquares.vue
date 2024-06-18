@@ -1,12 +1,12 @@
 <template>
   <div class="container">
     <div class="square">
-      <a href="https://spectralo.itch.io/">
+      <a href="https://spectralo.itch.io/" class="nounder">
         <img src="~public/itchio.svg" alt="Itch.io" height="50" width="50" class="socialsvg">
       </a>
         </div>
         <div class="square">
-      <a href="https://github.com/Spectralo">
+      <a href="https://github.com/Spectralo" class="nounder">
         <img src="~public/github.svg" alt="Github" height="50" width="50" class="socialsvg">
       </a>
         </div>
@@ -34,11 +34,11 @@
 .container {
   margin-top: 8vh;
   display: flex;
-  justify-content: end;
+  justify-content: start;
   align-items: center;
-  flex-direction: row;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  flex-direction: column;
+  height: fit-content;
+  transition: all 0.2s ease-out 100ms;
 }
 .square {
   padding-bottom: 15px;
@@ -47,13 +47,15 @@
   padding: 20px;
   border-radius: 15px;
   display: flex;
-  justify-content: center;
-  align-items: center;
   transition: transform 0.1s ease-out 100ms;
   transition: rotate 0.05s ease-out 100ms;
 }
 .square:hover {
   transform: scale(1.1);
   rotate: 5deg;
+}
+.container:hover {
+  background-color: rgba(0, 0, 0, 255);
+  border-radius: 15px;
 }
 </style>

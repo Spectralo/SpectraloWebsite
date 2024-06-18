@@ -17,7 +17,7 @@
   margin-top: 0.5vw;
   font-weight: 700;
   margin-left: 2vw;
-  margin-right: 60vw;
+  margin-right: 40vw;
 }
 em.subtitleitalic {
   color: #fff5bd;
