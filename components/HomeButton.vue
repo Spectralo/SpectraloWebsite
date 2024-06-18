@@ -1,6 +1,6 @@
 <template>
   <div class="btn">
-    <NuxtLink to="/">
+    <NuxtLink to="/" class="nounder"> 
       <p class="btnp"><Icon name="ion:arrow-back" color="black" /> Back</p>
     </NuxtLink>
 </div>
@@ -31,7 +31,7 @@
 .btn:hover {
   transform: scale(1.1);
 }
-a {
+.nounder {
   text-decoration: none;
   color: white;
 }

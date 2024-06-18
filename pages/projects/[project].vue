@@ -4,7 +4,7 @@
       <HomeButton />
     </div>
     <div class="containersprig">
-      <ContentDoc />
+      <ContentDoc/>
     </div>
   </div>
 </template>
@@ -24,5 +24,17 @@ const route = useRoute()
     align-items: center;
     flex-direction: row;
     font-size: 1.8vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: 1.5vw;
   }
+  a {
+    border-bottom: 200px;
+    font-size: 105%;
+    transition: border-bottom 0.5s ease;
+  }
+  a.containersprig:hover {
+    border-bottom: 20px solid #fff5bd;
+  }
+
 </style>
