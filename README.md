@@ -8,4 +8,4 @@ The site updates everytime a file is added in this directory
 
 ## Some screenshots
 
-![image](https://github.com/Spectralo/SpectraloWebsite/assets/122629939/ee264226-7bfb-48ce-8946-556df44bb948)
+![image](https://github.com/Spectralo/SpectraloWebsite/assets/122629939/57d0696d-b768-490c-8697-cacfff902f82)
